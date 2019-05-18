@@ -10,7 +10,7 @@ function drawSongs() {
     let song = songs[i]
     template += `    
 
-    <div class="col-xl-4 col-md-6 col-xs-12">
+    <div class="col-xl-3 col-md-6 col-xs-12">
     <img src="${song.albumArt}" alt="">
           <ul class="list-group">
           

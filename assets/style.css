@@ -24,6 +24,12 @@ li {
 audio {
   margin-left: 4%;
   padding-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 400px;
+}
+#timeline {
+  background-color: pink;
 }
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
@@ -47,3 +53,4 @@ audio {
 hr {
   color: solid pink 2px;
 }
+#
