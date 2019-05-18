@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Is Fun!</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="glow">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">getMusic()</h1>
+                <p class="lead">Search and return any music that could ever exist...as long as it's on iTunes. Sorry,
+                    Android.</p>
+
+                <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                    <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+                        <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="songs">
+            <div class="row">
+                <!-- <ul> -->
+                <!-- <li>
+                    <img src="${song.albumArt}" alt="">
+                    <h2>${song.title}</h2>
+                    <h3>Album: ${song.collection}</h3>
+                    <h3>Artist: ${song.artist}</h3>
+                    <h3>Price: ${song.price}</h3>
+                </li> -->
+                <!-- </ul> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="module" src="app/main.js"></script>
+</body>
+
+</html>
